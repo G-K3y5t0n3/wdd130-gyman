@@ -16,7 +16,7 @@ body {
     width: 1100px;
     margin: 0 auto;
     padding: 10px;
-    background-color: #7CFFC4;
+    background-color: #FEFAE0;
 }
 
 /* Header and nav */
@@ -110,7 +110,7 @@ h1 {
     color: #1B7AEE;
     font-family: sans-serif;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;    
 }
 
 .pattern-image {
@@ -146,4 +146,23 @@ footer {
 footer img {
     width: 30px;
     height: 30px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+.pattern-content img:last-child {
+    margin-bottom: 0;
 }
