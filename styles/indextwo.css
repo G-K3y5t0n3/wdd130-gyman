@@ -30,7 +30,7 @@ header {
     margin-bottom: 20px;
     background-color: #DD6971;
     border-radius: 12px;
-    gap: 10px;
+    gap: 50px;
 }
 
 /* Logo */
@@ -51,9 +51,11 @@ header {
 
 /* Main navigation */
 .nav-title {
-    font-size: 24px;
+    font-size: 40px;
     font-weight: bold;
     margin: 10px;
+    color: #7CFFC4;
+    font-family: Tangerine;
 }
 
 .main-navbar {
@@ -69,8 +71,8 @@ header {
 }
 
 .main-navbar a {
-    background-color: #333;
-    color: white;
+    background-color: #BDFFFD;
+    color: #1B7AEE;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -83,12 +85,22 @@ header {
     background-color: #1B7AEE;  
 }
 
-/* Back button and page title section */
-.back-container {
-    display: flex;
+/* Page title section */
+
+p {
+    font-family: Unlock, sans-serif, Lobster;
+    color: #1B7AEE;
+}
+
+.title-heading-container {
+    display: grid;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
+}
+
+.title-heading-container p {
+    text-align: center;
 }
 
 .back-nav a {
@@ -114,24 +126,37 @@ h1 {
     font-family: Tangerine;
 }
 
+h2 {
+    font-size: 4rem;
+    color: #1B7AEE;
+    text-align: center;
+    flex-grow: 1;
+    font-family: Tangerine;
+    padding-top: 10px;
+}
+
+
+
 /* Main content */
-.tutorial-content {
+.main-content {
     display: flex;
     gap: 30px;
     margin-bottom: 30px;
     color: #1B7AEE;
-    font-family: sans-serif;
+    font-family: font-family: Unlock, sans-serif, Lobster;
+    padding-top: 30px;
 }
 
-.tutorial-image {
+.main-image {
     flex: 1;
 }
 
-.tutorial-text {
+.main-text {
     flex: 2;
+    text-align: center;
 }
 
-.tutorial-content img,
+.main-content img,
 main > img {
     max-width: 100%;
     height: auto;
@@ -148,7 +173,8 @@ footer {
     padding: 20px;
     gap: 15px;
     margin-top: 30px;
+    font-size: 50px;
 }
 
-footer img {
-}
+/*footer img {
+} */
