@@ -110,18 +110,21 @@ h1 {
     color: #1B7AEE;
     font-family: sans-serif;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;    
+    grid-template-rows: 1fr 1fr 1fr;    
 }
 
 .pattern-image {
     grid-column: 1/2;
+    grid-row: 1/3;
 }
-
-.pattern-text {
-    flex: 2;
+.pattern-image2 {
+    grid-row: 3/4;
 }
 #img2 {
-    grid-row: 2/3;
+    grid-row: 3/4;
+}
+.paragraph2 {
+    grid-row: 3/4;
 }
 
 .pattern-content img,
