@@ -108,7 +108,7 @@ h1 {
     gap: 30px;
     margin-bottom: 30px;
     color: #1B7AEE;
-    font-family: sans-serif;
+    font-family: Unlock, sans-serif, Lobster;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;    
 }
